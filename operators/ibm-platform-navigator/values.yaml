@@ -8,5 +8,6 @@ ibm-platform-navigator:
         channel: v7.1
         installPlanApproval: Automatic
         name: ibm-integration-platform-navigator
-        source: ibm-integration-platform-navigator-catalog
+        source: ibm-operator-catalog
+        #source: ibm-integration-platform-navigator-catalog
         sourceNamespace: openshift-marketplace
