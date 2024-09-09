@@ -5,7 +5,8 @@ metadata:
 spec:
   #channel: stable
   #channel: latest
-  channel: gitops-1.12
+  #channel: gitops-1.12
+  channel: gitops-1.13.1
   installPlanApproval: Automatic
   name: openshift-gitops-operator
   source: redhat-operators
