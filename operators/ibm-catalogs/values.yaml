@@ -12,6 +12,17 @@ ibm-catalogs:
         updateStrategy:
           registryPoll:
             interval: 45m
+            
+    alfred4pn:
+      name: ibm-integration-platform-navigator-catalog
+      catalog:
+        displayName: ibm-integration-platform-navigator-7.1.1
+        image: icr.io/cpopen/ibm-integration-platform-navigator-catalog:latest
+        publisher: IBM
+        sourceType: grpc
+        updateStrategy:
+          registryPoll:
+            interval: 30m
 
     ibmoperators:
       name: ibm-operator-catalog
