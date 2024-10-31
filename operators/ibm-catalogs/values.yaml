@@ -17,7 +17,7 @@ ibm-catalogs:
       name: ibm-integration-platform-navigator-catalog
       catalog:
         displayName: ibm-integration-platform-navigator-7.1.1
-        image: icr.io/cpopen/ibm-integration-platform-navigator-catalog:latest
+        image: icr.io/cpopen/ibm-integration-platform-navigator-catalog@sha256:2dc3fbaa8a7da3991200d7ec2cf6fae03652248faece3948567bc0ebbe6dad4f
         publisher: IBM
         sourceType: grpc
         updateStrategy:
